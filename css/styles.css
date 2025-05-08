@@ -239,6 +239,14 @@ position: relative;
     max-width: 264px;
 }
 
+svg .color1 {
+    fill: #2e2f42;
+}
+
+svg .color2 {
+    fill: #4d5ae5;
+}
+
 .team {
     background-color: #f4f4fd;
     padding-top: 120px;
@@ -302,6 +310,9 @@ align-items: center;
 
 }
 
+svg .color3 {
+    fill:#f4f4fd;
+}
 .contacts-icon {
     background-color: #4d5ae5;
     border-radius: 50%;
