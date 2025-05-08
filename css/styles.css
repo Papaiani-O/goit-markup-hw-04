@@ -239,18 +239,6 @@ position: relative;
     max-width: 264px;
 }
 
-/* :root {
-    --color1: #2e2f42;
-    --color2: #4d5ae5;
-    --color3: #f4f4fd;
-
-svg .color1 {
-    fill:var(--color1);
-}
-
-svg .color2 {
-    fill:var(--color2)
-} */
 
 .team {
     background-color: #f4f4fd;
@@ -315,9 +303,6 @@ align-items: center;
 
 }
 
-/* svg .contacts-icon {
-    fill:var(--color3);
-} */
 .contacts-icon {
     background-color: #4d5ae5;
     border-radius: 50%;
@@ -325,8 +310,9 @@ align-items: center;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    fill: color(#f4f4fd);
-    }
+}
+
+
 
 .link--team {
 padding: 12px 12px;
@@ -334,6 +320,7 @@ padding: 12px 12px;
 
 .icon-contacts {
     display: inline-block;
+    fill: #f4f4fd;
 }
 
 .portfolio {
