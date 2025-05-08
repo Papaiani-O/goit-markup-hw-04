@@ -239,13 +239,18 @@ position: relative;
     max-width: 264px;
 }
 
+/* :root {
+    --color1: #2e2f42;
+    --color2: #4d5ae5;
+    --color3: #f4f4fd;
+
 svg .color1 {
-    fill: #2e2f42;
+    fill:var(--color1);
 }
 
 svg .color2 {
-    fill: #4d5ae5;
-}
+    fill:var(--color2)
+} */
 
 .team {
     background-color: #f4f4fd;
@@ -310,9 +315,9 @@ align-items: center;
 
 }
 
-svg .color3 {
-    fill:#f4f4fd;
-}
+/* svg .contacts-icon {
+    fill:var(--color3);
+} */
 .contacts-icon {
     background-color: #4d5ae5;
     border-radius: 50%;
@@ -320,6 +325,7 @@ svg .color3 {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    fill: color(#f4f4fd);
     }
 
 .link--team {
